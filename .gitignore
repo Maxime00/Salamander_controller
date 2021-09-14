@@ -1,0 +1,14 @@
+#: Latex
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+auto/
+
+#: Python
+*.pyc
+__pychache__
+
+#: Temp
+*.*~

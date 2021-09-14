@@ -1,0 +1,115 @@
+\documentclass{cmc}
+\usepackage{makecell}
+\begin{document}
+
+\pagestyle{fancy}
+\lhead{\textit{\textbf{Computational Motor Control, Spring 2019} \\
+    Salamander exercise, Lab 9 Extension, GRADED}} \rhead{Bonnesoeur Maxime\\ Gautier Maxime\\ Furrer Stanislas}
+
+\section*{Student names: Bonnesoeur Maxime, Gautier Maxime, \\ Furrer Stanislas}
+
+\textit{Instructions: Update this file (or recreate a similar one,
+  e.g.\ in Word) to prepare your answers to the questions. Feel free
+  to add text, equations and figures as needed. Hand-written notes,
+  e.g.\ for the development of equations, can also be included e.g.\
+  as pictures (from your cell phone or from a scanner).
+  \textbf{\corr{This lab is graded.}} and needs to be submitted before
+  the \textbf{\corr{Deadline : 07-06-2019 Midnight. You only need to
+      submit one final report for all of the following exercises
+      combined henceforth.}} Please submit both the source file
+  (*.doc/*.tex) and a pdf of your document, zipped file called
+  \corr{final\_report\_extension\_name1\_name2\_name3.zip} where
+  name\# are the team member’s last names.  \corr{Please submit only
+    one report per team!}}
+\\
+
+\section*{Propose a potential additional study that could be performed
+  in simulation and with the real salamander.  This should be written
+  like a research proposal using the questions listed below and should not exceed
+  2 pages (including figures and references). You are free to choose
+  any topic related to sensorimotor coordination and locomotion of the
+  salamander.}
+\corr{NOTE : The proposal should be just text (possibly with some
+  figures), there is no need to perform the actual numerical
+  experiments!}
+\label{sec:research-proposal}
+
+\subsection{Provide a scientific question}
+
+Can the robot salamander automatically adapt its behavior (drive) depending on its environment and using the torque feedback? The idea being that the robot, much like the animal, instinctively adapts its gait to be optimal depending on its environment and the corresponding torque feedback. This could also be applied so that the robot immediately finds different optimal swimming behaviors depending on the viscosity of the liquid it is set in. 
+
+\subsection{Formulate a hypothesis corresponding to the scientific question}
+
+If there is a specific pattern of force feedback felt by the muscle of the salamander specific to the medium it is evolving in, then there is a possibility that this feedback may influence the switching of the modes of the salamander (e.g. walking; swimming) by influencing the drive.
+
+%It should be possible to study the torque feedback and depending on the values automatically adjust the drive of the salamander to either a swimming or walking gait. If values of the torque feedback are different enough for various gaits, it can be used as an input to intrinsically adapt behavior without external intervention.
+
+\subsection{Describe an experiment in simulation that could be
+  performed to test the hypothesis}
+
+By studying the torque feedback of the joints of the salamander in different medium, we may be able to notice a specific behavior that is able to tell us in which medium we are evolving. Then, by processing this signal, we could decide whether 
+
+An experience similar to 9g can be performed, this time using the torque feedback to change the value of the drive instead of the GPS coordinate. 
+
+%xpliquer ici comment on mesure le torque feedback et on converti en une valeur pour le drive
+  
+ 
+\subsection{Specify which type of simulation (e.g. neural circuits +
+  biomechanics, neural circuits alone, etc.), which level of
+  abstraction, and which assumptions (cf the modeling steps presented
+  in the course)}
+  
+  This experiment would rely on the force feedback felt by the salamander and the robot. This would mean that this experiment relies on a bio-mechanical part which is the feedback of the muscles for the salamander and how those feedbacks may influence the neural circuits of the oscillators. The experiment should only take into consideration the oscillators independently of the drive provided to the system. As a matter of fact, if no drive is applied, the force feedback is equal to zero. However, if the drive is not 0, there would be a feedback pattern of the force that may be able to tell us in which kind of medium our salamander is evolving in.
+  
+  
+  For example, by processing the feedback on the motor when the robot is going from an aqueous medium to a medium with air, we noticed that there was a clear change in the feedback of the motor that could be used to identify the medium of the robot as can be seen on Figure\ref{fig_medium}.
+  
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width = 0.65\linewidth]{temp.png}
+      \caption{Force feedback of the joints depending on the medium (before 2200: robot on the ground, after 2200, robot in an aqueous medium)}
+      \label{fig_medium}
+  \end{figure}
+  
+  Moreover, an implementation of the automatic transition from ground to water and water to ground depending on sensory feedback was implemented in the function cmc\_robot.py .This function is working and we invite you to try it if you have the time.
+  
+\subsection{Specify a corresponding experiment that could be performed with the real animal}
+
+A possible experiment would be to use a decerebrated salamander and to apply a specific drive for a walking or swimming behavior. Then, sensors could be placed on the afferent nerves to see if the feedback gives a different behavior depending on the medium. Sensors could also be placed on the efferent nerves to see if there is a modification of the behavior of the muscles based on this feedback from the medium. 
+
+
+\subsection{Discuss what you expect and what could be learned from those experiments (in simulation and real)}
+
+\paragraph{Real Life} This experiment could be used to learn how the salamander adapts its gait. Does it only use location/visual feedback and consciously changes its movement or is it a more complex system that relies on both visual and other sensory feedback.  
+    
+\paragraph{Simulation} This could be used to create a robot capable of adapting its gait depending on the environment by solely using the force feedback of his joints.
+
+
+
+\subsection{Refer to and include a short bibliography with relevant
+  literature (Example \cite{ijspeert2007swimming})}
+
+
+The documents \cite{ijspeert2007swimming}, \cite{Crespi2013} and \cite{Karakasiliotis2013} allow a better understanding of the actual locomotion of the salamander and of the structure of its CPG.\\
+The document \cite{Ijspeert2013}, is talking about the influence of sensory feedback in the pattern generation. There, the question was about knowing  if the change of comportment of the salamander on dry ground or in aqueous medium was due to a descending pathway only or if there was a underlying behaviour more deeply engraved in the CPG.
+
+\\
+Studies like the work of Prof. Courtine \cite{Courtine:262728} on the rehabilitation of paralized patient showed that the drive applied on the CPG of a patient was triggering the motion of the patient. However, it is thanks to the sensory feedback of the CPG that a pattern can be re-generated even if, in this case, there is no descending pathway due to the injury of the patient. Hence, the sensory feedback has a role to play in the generation of a specific pattern.
+\nocite{*}
+\bibliographystyle{ieeetr}
+\bibliography{lab9_ext}
+%\label{sec:references}
+
+
+
+% \newpage
+
+% \section*{APPENDIX}
+% \label{sec:appendix}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

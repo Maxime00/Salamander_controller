@@ -1,0 +1,4 @@
+git+https://gitlab.epfl.ch/BioRobCMC/cmc_pylog.git#cmc-pylog
+numpy
+matplotlib
+scipy

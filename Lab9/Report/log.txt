@@ -1,0 +1,674 @@
+INFO: pythonController: Starting: "python.exe -u "pythonController.py" 9g"
+[pythonController] [PYLOG-8488] 2019-06-05 10:28:19,593 - [INFO] - pythonController.py::28::main():
+[pythonController] Arguments passed to smulation: 9g
+[pythonController] -
+[pythonController] [PYLOG-8488] 2019-06-05 10:28:19,608 - [INFO] - run_simulation.py::14::run_simulation():
+[pythonController] Running new simulation:
+[pythonController]   n_body_joints: 10
+[pythonController]   n_legs_joints: 4
+[pythonController]   simulation_duration: 15
+[pythonController]   phase_lag: None
+[pythonController]   amplitude_gradient: None
+[pythonController]   backward: None
+[pythonController]   turn: None
+[pythonController]   drive: 1.5
+[pythonController]   amplitudes: None
+[pythonController] -
+[pythonController] {'n_body_joints': 10, 'n_legs_joints': 4, 'simulation_duration': 15, 'phase_lag': None, 'amplitude_gradient': None, 'backward': None, 'turn': None, 'drive': 1.5, 'amplitudes': None}
+[pythonController] frequencies : 
+[pythonController] [0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6
+[pythonController]  0.6 0.6 0.3 0.3 0.3 0.3]
+[pythonController] Coupling weight
+[pythonController] [[ 0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]   10.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0. 10.  0.  0.  0.  0.]
+[pythonController]  [10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.
+[pythonController]   10.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.
+[pythonController]    0. 10.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]   10.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0. 30. 30. 30. 30. 30. 30.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0. 10. 10.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 30. 30. 30. 30. 30. 30.  0.
+[pythonController]    0.  0. 10.  0.  0. 10.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0. 30. 30. 30.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0. 10.  0.  0. 10.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 30.
+[pythonController]   30. 30.  0. 10. 10.  0.]]
+[pythonController] Phase bias : 
+[pythonController] [[ 0.         -0.62831853  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          3.14159265  0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.62831853  0.         -0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.62831853  0.         -0.62831853  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.62831853  0.         -0.62831853  0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.62831853  0.         -0.62831853
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          3.14159265  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.62831853  0.
+[pythonController]   -0.62831853  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.62831853
+[pythonController]    0.         -0.62831853  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          3.14159265  0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.62831853  0.         -0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.62831853  0.         -0.62831853  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    3.14159265  0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  0.          0.          0.          0.        ]
+[pythonController]  [ 3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.         -0.62831853
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          3.14159265  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.62831853  0.
+[pythonController]   -0.62831853  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          3.14159265  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.62831853
+[pythonController]    0.         -0.62831853  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.62831853  0.         -0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          3.14159265  0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.62831853  0.         -0.62831853  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          3.14159265
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.62831853  0.         -0.62831853  0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.62831853  0.         -0.62831853
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.62831853  0.
+[pythonController]   -0.62831853  0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          3.14159265  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.62831853
+[pythonController]    0.         -0.62831853  0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.62831853  0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          3.14159265  3.14159265  3.14159265  3.14159265  3.14159265
+[pythonController]    3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          3.14159265  3.14159265  0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    3.14159265  3.14159265  3.14159265  3.14159265  3.14159265  0.
+[pythonController]    0.          0.          3.14159265  0.          0.          3.14159265]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  3.14159265  3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          3.14159265  0.          0.          3.14159265]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    3.14159265  3.14159265  0.          3.14159265  3.14159265  0.        ]]
+[pythonController] {'n_body_joints': 10, 'n_legs_joints': 4, 'n_joints': 14, 'n_oscillators_body': 20, 'n_oscillators_legs': 4, 'n_oscillators': 24, 'freqs': array([0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6,
+[pythonController]        0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.3, 0.3, 0.3, 0.3]), 'coupling_weights': array([[ 0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]         10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.],
+[pythonController]        [10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0., 10.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,
+[pythonController]         10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,
+[pythonController]          0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]         10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0., 30., 30., 30., 30., 30., 30.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10., 10.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 30., 30.,
+[pythonController]         30., 30., 30., 30.,  0.,  0.,  0., 10.,  0.,  0., 10.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0., 30., 30., 30.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0., 10.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0., 30., 30., 30.,  0., 10., 10.,  0.]]), 'phase_bias': array([[ 0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]         -0.62831853,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.62831853,
+[pythonController]          0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]         -0.62831853,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.62831853,
+[pythonController]          0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  3.14159265,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          3.14159265,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  3.14159265,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          3.14159265,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  3.14159265],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  3.14159265],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          0.        ,  3.14159265,  3.14159265,  0.        ]]), 'rates': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+[pythonController]        0., 0., 0., 0., 0., 0., 0.]), 'nominal_amplitudes': array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+[pythonController]        0., 0., 0., 0., 0., 0., 0.])}
+[pythonController] {'n_body_joints': 10, 'n_legs_joints': 4, 'simulation_duration': 15, 'phase_lag': None, 'amplitude_gradient': None, 'backward': None, 'turn': None, 'drive': 1.5, 'amplitudes': None}
+[pythonController] Convergence rates
+[pythonController] [20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20.
+[pythonController]  20. 20. 20. 20. 20. 20.]
+[pythonController] 1.5
+[pythonController] Nominal amplitudes
+[pythonController] [0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935
+[pythonController]  0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935 0.2935
+[pythonController]  0.1965 0.1965 0.1965 0.1965]
+[pythonController] frequencies : 
+[pythonController] [1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1 1.1
+[pythonController]  1.1 1.1 0.  0.  0.  0. ]
+[pythonController] Coupling weight
+[pythonController] [[ 0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]   10.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0. 10.  0.  0.  0.  0.]
+[pythonController]  [10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.  0.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0. 10.
+[pythonController]    0.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.
+[pythonController]   10.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0. 10.
+[pythonController]    0. 10.  0.  0.  0.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]   10.  0.  0.  0.  0.  0.]
+[pythonController]  [ 0. 30. 30. 30. 30. 30. 30.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0.  0. 10. 10.  0.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 30. 30. 30. 30. 30. 30.  0.
+[pythonController]    0.  0. 10.  0.  0. 10.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0. 30. 30. 30.  0.  0.  0.  0.  0.  0.  0.  0.
+[pythonController]    0.  0. 10.  0.  0. 10.]
+[pythonController]  [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 30.
+[pythonController]   30. 30.  0. 10. 10.  0.]]
+[pythonController] Phase bias : 
+[pythonController] [[ 0.         -0.62831853  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          3.14159265  0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.62831853  0.         -0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.62831853  0.         -0.62831853  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.62831853  0.         -0.62831853  0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.62831853  0.         -0.62831853
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          3.14159265  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.62831853  0.
+[pythonController]   -0.62831853  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.62831853
+[pythonController]    0.         -0.62831853  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          3.14159265  0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.62831853  0.         -0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.62831853  0.         -0.62831853  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    3.14159265  0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  0.          0.          0.          0.        ]
+[pythonController]  [ 3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.         -0.62831853
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          3.14159265  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.62831853  0.
+[pythonController]   -0.62831853  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          3.14159265  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.62831853
+[pythonController]    0.         -0.62831853  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.62831853  0.         -0.62831853  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          3.14159265  0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.62831853  0.         -0.62831853  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          3.14159265
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.62831853  0.         -0.62831853  0.
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.62831853  0.         -0.62831853
+[pythonController]    0.          0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.62831853  0.
+[pythonController]   -0.62831853  0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          3.14159265  0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.62831853
+[pythonController]    0.         -0.62831853  0.          0.          0.          0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.62831853  0.          0.          0.          0.          0.        ]
+[pythonController]  [ 0.          3.14159265  3.14159265  3.14159265  3.14159265  3.14159265
+[pythonController]    3.14159265  0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          3.14159265  3.14159265  0.        ]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    3.14159265  3.14159265  3.14159265  3.14159265  3.14159265  0.
+[pythonController]    0.          0.          3.14159265  0.          0.          3.14159265]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          3.14159265  3.14159265  3.14159265  0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          3.14159265  0.          0.          3.14159265]
+[pythonController]  [ 0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          0.
+[pythonController]    0.          0.          0.          0.          0.          3.14159265
+[pythonController]    3.14159265  3.14159265  0.          3.14159265  3.14159265  0.        ]]
+[pythonController] {'n_body_joints': 10, 'n_legs_joints': 4, 'n_joints': 14, 'n_oscillators_body': 20, 'n_oscillators_legs': 4, 'n_oscillators': 24, 'freqs': array([1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1,
+[pythonController]        1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 0. , 0. , 0. , 0. ]), 'coupling_weights': array([[ 0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]         10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.],
+[pythonController]        [10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0., 10.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,
+[pythonController]         10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,
+[pythonController]          0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]         10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0., 10.,  0., 10.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0., 10.,  0.,  0.,  0.,  0.,  0.],
+[pythonController]        [ 0., 30., 30., 30., 30., 30., 30.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 10., 10.,  0.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0., 30., 30.,
+[pythonController]         30., 30., 30., 30.,  0.,  0.,  0., 10.,  0.,  0., 10.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0., 30., 30., 30.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0.,  0.,  0.,  0., 10.,  0.,  0., 10.],
+[pythonController]        [ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
+[pythonController]          0.,  0.,  0.,  0., 30., 30., 30.,  0., 10., 10.,  0.]]), 'phase_bias': array([[ 0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]         -0.62831853,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.62831853,
+[pythonController]          0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]         -0.62831853,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.62831853,
+[pythonController]          0.        , -0.62831853,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.62831853,  0.        , -0.62831853,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.62831853,  0.        , -0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  3.14159265,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.62831853,  0.        , -0.62831853,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.62831853,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ],
+[pythonController]        [ 0.        ,  3.14159265,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          3.14159265,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  3.14159265,  0.        ],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  3.14159265,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          3.14159265,  3.14159265,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  3.14159265],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          3.14159265,  0.        ,  0.        ,  3.14159265],
+[pythonController]        [ 0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+[pythonController]          0.        ,  0.        ,  3.14159265,  3.14159265,  3.14159265,
+[pythonController]          0.        ,  3.14159265,  3.14159265,  0.        ]]), 'rates': array([20., 20., 20., 20., 20., 20., 20., 20., 20., 20., 20., 20., 20.,
+[pythonController]        20., 20., 20., 20., 20., 20., 20., 20., 20., 20., 20.]), 'nominal_amplitudes': array([0.2935, 0.2935, 0.2935, 0.2935, 0.2935, 0.2935, 0.2935, 0.2935,
+[pythonController]        0.2935, 0.2935, 0.2935, 0.2935, 0.2935, 0.2935, 0.2935, 0.2935,
+[pythonController]        0.2935, 0.2935, 0.2935, 0.2935, 0.1965, 0.1965, 0.1965, 0.1965])}
+[pythonController] {'n_body_joints': 10, 'n_legs_joints': 4, 'simulation_duration': 15, 'phase_lag': None, 'amplitude_gradient': None, 'backward': None, 'turn': None, 'drive': 4.0, 'amplitudes': None}
+[pythonController] Convergence rates
+[pythonController] [20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20.
+[pythonController]  20. 20. 20. 20. 20. 20.]
+[pythonController] 4.0
+[pythonController] Nominal amplitudes
+[pythonController] [0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.456
+[pythonController]  0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.456 0.    0.    0.    0.   ]
+[pythonController] Detection of the water enabled

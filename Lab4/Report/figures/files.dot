@@ -1,0 +1,18 @@
+digraph G {
+    graph[rankdir=LR, center=true]
+    node [
+          color="black",
+          fontsize=20,
+          shape=box
+          ]
+    lab [label="lab4.py"];
+    ex1 [label="exercise1.py"];
+    edge[arrowhead="vee"];
+    lab->ex1;
+    subgraph exercise_files {
+        ex1->"system_parameters.py";
+        ex1->"pendulum_system.py";
+        ex1->"system_animation.py";
+        color=black;
+    }
+}
